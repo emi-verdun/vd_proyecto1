@@ -2,7 +2,7 @@
   import {onMount} from "svelte"
   import * as d3 from "d3"
 
-  let numbers = [10, 100]
+  let numbers = [38, 100]
   let pathLength
   let largo
 
