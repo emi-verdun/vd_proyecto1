@@ -2,7 +2,7 @@
   import {onMount} from "svelte"
   import * as d3 from "d3"
 
-  let numbers = [38, 100]
+  let numbers = [10, 25, 33, 62, 75, 100]
   let pathLength
   let largo
 
@@ -78,12 +78,6 @@
           </g>
         {/if}
         
-        <!--{#each estaciones as e}
-          {#if n >= e/14 * 100}
-              <circle id={strEstaciones[e-1]} cx="90" cy="125" r="5" fill="green" stroke="black"/>
-          {/if}
-        {/each}-->
-        
         
         {#if n >= 10}
           <circle id="p1" cx="90" cy="125" r="5" fill="green" stroke="black"/>
@@ -143,6 +137,10 @@
         
       </svg>
       <p class="number">{n}% del viaje realizado</p>
+
+      <br>
+      <br>
+      <br>
     </div>
     {/each}
   </div>
