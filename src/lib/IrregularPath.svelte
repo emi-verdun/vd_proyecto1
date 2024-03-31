@@ -96,7 +96,7 @@
       
       </svg>
       
-      <p class="number">{n}% del viaje realizado</p>
+      <p class="porcentaje">{n}% del viaje realizado</p>
 
     </div>
     {/each}
@@ -112,10 +112,13 @@
   }
 
   .grafico {
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
-  .number {
+
+  .porcentaje {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: #00640E
   }
